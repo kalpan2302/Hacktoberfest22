@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Infomation of NPM</h1>
+    <h2>NPM -> Node package manegment</h2>
+    <h2>npm -v -> version check</h2>
+    <h2>npm --version</h2>
+    <p>package.json 
+        -> information of app 
+        -> list of dependencies (name & version)</p>
+    
+    <br>
+    <p>
+        dependencies -> files which use for running application
+        
+        npm init -> initiation of new application
+        
+        npm set init-author-name "in.techshark.vanshpatel"
+            -> use for config default one
+        npm config delete init-author-name
+            -> delete defalut one</p>
+
+    <br>
+    <p>
+        npm install <package-name>  -> only dowload dependencies not init in package.json
+        npm install <package-name> --save -> add dependencies in package.json
+        npm uninstall lodash --save
+        npm remove lodash --save</p>
+    <br>
+    <p>
+        dev dependencies -> useful for developement not production
+        --save-dev -> save dev dependencies
+        npm install --production -> only install dev dependencies  
+    </p>
+    <br>
+    <p>
+        versioning
+        8.2.6
+        8-> major version, changes break the API
+        2-> New features, does not break the API
+        6-> bug fixes
+    </p>
+    <br>
+    <p>
+        -g -> install module globally
+        npm root -g -> check the global path
+        npm list -> listing all modules
+    </p>
+    <br>
+    <p>
+        "start": "node index.js" : npm start => node index.js
+        "server": "node live-server" : npm server => node live-server
+    </p>
+</body>
+</html>
